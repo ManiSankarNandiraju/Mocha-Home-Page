@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.schedule-demo {
+  height: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDEBE9;
+}
+
+.demo-container {
+  display: flex;
+  align-items: center; /* Aligns the containers vertically */
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 50px; /* Adjusted gap to reduce space between image and content */
+}
+
+.demo-image img {
+  width: 501px; /* Hug width */
+  height: 339px; /* Hug height */
+}
+
+.demo-content {
+  width: 730px; /* Hug width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  text-align: left;
+}
+
+.demo-content h2 {
+  font-size: 36px; /* Adjusted to reduce space */
+  font-weight: 600; /* Slightly reduced weight */
+  color: #1C352D;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 16px; /* Reduced space below the heading */
+}
+
+.demo-content p {
+  font-size: 18px; /* Slightly reduced size */
+  color: #131313;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 24px; /* Reduced space below the text */
+}
+
+.demo-buttons {
+  display: flex;
+  gap: 20px; /* Reduced gap between buttons */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px; /* Adjusted padding for correct size */
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 74px; /* Ensures button height */
+  width: 250px; /* Ensures button width */
+}
+
+.book-btn {
+  background-color: #00754A;
+  color: white;
+  border: none;
+}
+
+.ask-btn {
+  color: #1C352D;
+  border: 1px solid #1E3932;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+}

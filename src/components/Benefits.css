@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.benefits {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .benefits-heading {
+    margin-bottom: 120px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #1C352D;
+  }
+  
+  .benefits-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    height: 292px;
+    margin: 0 auto;
+    gap: 20px;
+    opacity: 1; /* Adjust opacity if needed */
+  }
+  
+  .benefits-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 420px;
+    height: 292px;
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid #CBA560;
+  }
+  
+  .benefits-icon {
+    width: 72px; /* Adjust size as needed */
+    height: 72px;
+    margin-bottom: 10px;
+  }
+  
+  .benefits-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .benefits-text {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+    color: #1C352D;
+  }
+  

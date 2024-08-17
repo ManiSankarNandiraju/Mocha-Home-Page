@@ -1,0 +1,39 @@
+/* src/components/Instigations.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.instigations {
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px; /* Reduced padding for better alignment */
+    background-color: #F9F9F9; /* Adjust the background color as needed */
+  }
+  
+  .instigations-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between text and logos */
+    width: 100%;
+    max-width: 1200px; /* Optional: restrict max-width for better alignment */
+  }
+  
+  .instigations-text {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1C352D;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  }
+  
+  .instigations-logos {
+    display: flex;
+    align-items: center; /* Align logos vertically */
+    gap: 50px; /* Adjust the gap between logos */
+  }
+  
+  .instigations-logos img {
+    height: 60px; /* Adjust the logo size as needed */
+    width: auto;
+  }
+  

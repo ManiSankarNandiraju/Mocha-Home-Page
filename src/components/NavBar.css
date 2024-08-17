@@ -1,0 +1,103 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 118px;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+}
+
+.logo img {
+  height: 40px; /* Adjust the logo size as needed */
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 10px;
+  color: #483C32;
+
+}
+
+.nav-links li:hover {
+  color: #1E3932; /* Highlight color on hover */
+}
+
+.nav-links li.active {
+  color: #177245;
+  border-bottom: 3px solid #177245 /* Underline only the active link */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.signup-button,
+.demo-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button {
+    width: Hug (124px)px;
+    height: Hug (46px)px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border: 2px solid #1E3932; /* Border with the same color */
+    opacity: 0px;
+    background-color: transparent; /* No background color */
+    border-radius: 50px;
+}
+
+.demo-button {
+    width: Hug (195px)px;
+    height: Hug (46px)px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border-radius: 50px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #1E3932;
+    color: #fff;
+}
+
+.user-icon {
+    height: 20px; /* Adjust the icon size as needed */
+    margin-right: 8px;
+  }
+
+.video-icon {
+  height: 20px; /* Adjust the icon size as needed */
+  margin-left: 8px;
+}
+
+.signup-button:hover {
+  background-color: #e0e0e0;
+
+}
+
+.demo-button:hover {
+  background-color: #004d37ef;
+}

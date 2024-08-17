@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.testimonials {
+    position: relative;
+    padding: 20px;
+    background-color: #F2F0EB;
+    height: 922px;
+}
+
+.testimonials h2 {
+    margin-bottom: 150px;
+    margin-top: 100px;
+    color: #1C352D;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.testimonial-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1220px;
+    height: 448px;
+    margin: 0 auto;
+    position: relative;
+    gap: 32px;
+}
+
+.testimonial-card {
+    width: 388px;
+    height: 370px;
+    padding: 42px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    border: 1px solid #D4D2E3;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.testimonial-card.highlighted {
+    height: 448px;
+    background-color: #1C352D;
+    color: #ffffff;
+    border: 1px solid #1C352D;
+}
+
+.client-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.review-text {
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+}
+
+.client-info {
+    text-align: left;
+}
+
+.client-name {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-size: 18px;
+    opacity: 1;
+}
+
+.client-position {
+    font-weight: bold;
+    color: grey;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-size: 18px;
+    opacity: 1;
+}
+
+.arrow {
+    background-color: rgba(203, 162, 88, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.arrow.left {
+    left: -25px;
+}
+
+.arrow.right {
+    right: -25px;
+}
+
+.arrow:hover {
+    opacity: 0.2;
+}

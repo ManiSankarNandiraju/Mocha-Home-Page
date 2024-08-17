@@ -1,0 +1,49 @@
+/* src/components/FAQ.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.faq {
+    display: flex;
+    align-items: center;
+    height: 176px;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px;
+    background-color: #ffffff; 
+  }
+
+  
+  .faq-container {
+    display: flex;
+    justify-content: space-between; /* Space between heading and text */
+    align-items: center; /* Vertically center items */
+    width: 100%; /* Full width of the parent */
+    max-width: 1200px; /* Maximum width of the container */
+    gap: 220px;
+  }
+
+  .faq-heading, .faq-text {
+    margin: 0;
+
+  }
+  
+  .faq-heading {
+    text-align: left; /* Aligns heading text to the left */
+    font-size: 42px;
+    font-weight: bolder;
+    color: #1C352D;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  }
+  
+  .faq-text {
+    display: flex;
+    font-size: 20px;
+    color: #1C352D;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  }
+  
+  .faq-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1C352D; /* Optional: for link color */
+    margin-right: 10px;
+    margin-left: 10px; 
+  }
+  
