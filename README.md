@@ -1,3 +1,17 @@
+design for development:
+https://www.figma.com/design/I8cR0dq1gewU8a2m3rgR5G/About-Mocha
+
+pricing page design by me :
+https://www.figma.com/design/wn8iBfC65uClHtH2oG0PgW/Mocha-Pricing-Page?node-id=0-1&node-type=canvas&t=gNH1bV9XQ0WlUsLz-0
+
+no live page 
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
